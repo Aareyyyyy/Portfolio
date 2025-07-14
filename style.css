@@ -1,0 +1,83 @@
+/* General page settings */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header image and name */
+.image {
+  text-align: center;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+}
+
+.image img {
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+/* Navigation menu */
+nav.About {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px 0;
+}
+
+nav.About a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav.About a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h3 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+a {
+  color: #007acc;
+}
+
+a:hover {
+  color: #005999;
+}
+
+/* Social media links */
+.Social {
+  text-align: center;
+  padding: 20px;
+}
+
+.Social img {
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.Social img:hover {
+  transform: scale(1.1);
+}
